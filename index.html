@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Go Patalant</title>
-    <meta charset="utf-8">
-    <html lang="en">
-  </head>
-  <body>
-  <img style="height: 100%; margin: 0 auto;" src="patalant.png" alt="go patalant">
-  </body>
+	<head>
+		<title>Go Patalant</title>
+		<meta charset="utf-8">
+		<html lang="en">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div id=slider>
+				<img id="1" src="images/petitti.jpg" alt="pat">
+				<img id="2" src="images/griffin.jpg" alt="pat">
+				<img id="3" src="images/mascia.jpg" alt="pat">
+				<img id="4" src="images/kneeland.jpg" alt="pat">
+			</div>
+			<a href="#" class="left" onclick="prev(); return false;">Previous</a>
+			<a href="#" class="right" onclick="next(); return false;">Next</a>
+		</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/slider.js"></script>
+	</body>
 </html>
