@@ -4,6 +4,10 @@ sliderNext = 2;
 $(document).ready(function(){
 	$('#slider > img#1').fadeIn(300);
 	startSlider();
+
+	$('.header').click(function(){
+		$("#pat").slideToggle('slow');
+	});
 });
 
 function startSlider(){

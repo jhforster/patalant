@@ -1,3 +1,8 @@
+body {
+	font-family: sans-serif;
+	font-weight: 400px;
+}
+
 .wrapper {
 	max-width: 350px;
 	margin: 0 auto;
@@ -17,7 +22,22 @@
 	display: none;
 }
 
-a {
+#pat {
+	width: 100%;
+	display: none;
+}
+
+.header {
+	padding: 5px 0 5px 0;
+	display: block;
+	margin: 0 auto;
+	background-color: #FFA082;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.button {
 	padding: 5px 10px;
 	background-color: #343434;
 	color: #fff;
@@ -27,12 +47,19 @@ a {
 	text-decoration: none;
 }
 
-a.left {
+.button.left {
 	float: left;
 }
 
-a.right {
+.button.right {
 	float: right;
+}
+
+.top {
+	margin: 0 auto;
+	background-color: #FFA082;
+	text-align: center;
+	line-height: 30px;
 }
 
 
